@@ -1,0 +1,16 @@
+syntax            = "proto3";
+option go_package = "github.com/Vicchang/ProtoOneofBenchmark/proto";
+
+package protoobj;
+
+message OneOfObject {
+    oneof Output {
+        Object obj = 1;
+    }
+}
+
+message Object {
+    string Text = 1;
+    string Type = 2;
+    string Kind = 3;
+}
