@@ -1,6 +1,6 @@
 # Result
 
-| job  | total time | time | memory | mem allocs |
+| job  | operations | time | memory | mem allocs |
 |---|---|---|---|---|
 | BenchmarkNormalMarshal-8  | 8880067  |  131 ns/op | 32 B/op	 | 1 allocs/op |
 | BenchmarkOneofMarshal-8   | 3991150  | 303 ns/op  | 32 B/op	 | 1 allocs/op  |
